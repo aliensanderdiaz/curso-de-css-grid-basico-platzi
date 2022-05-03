@@ -1,0 +1,47 @@
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    height: 600px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: 150px;
+    /* propiedades para alineacion contenedor */
+
+    /* justify-content: center; */
+    /* align-content: center; */
+    place-content: center;
+
+    /* Propiedades para la alineacion de los items (TODOS) */
+    /* justify-items: start; */
+    /* align-items: center; */
+    place-items: center;
+}
+
+.item {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+
+.item-2 {
+    /* justify-self: start; */
+    /* align-self: end; */
+    place-self: end;
+}
+
+/* RETO */
+
+/* .contenedor-2 {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    gap: 20px;
+}
+
+.item-2 {
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+} */
